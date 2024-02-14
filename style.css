@@ -1,0 +1,57 @@
+body{
+    background-color: grey;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    border-style: dashed;
+    border-color: whitesmoke;
+    box-sizing: border-box;
+    margin: .5rem ;
+}
+.title{
+    position: relative;
+    left: 12.5%;
+    width: 75%;
+   color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin: -.5rem;
+    border-style: solid;
+    background-color: grey;
+    border-color: whitesmoke;
+}
+p{
+    padding: .5rem;
+}
+.codeSnip{
+    padding: .8rem ;
+    background-image: linear-gradient(grey,rgb(18, 83, 58));
+    margin: .5rem .5rem;
+    border-radius: .5rem;
+}
+#footerEm::after{
+    content: "♥";
+}
+footer{
+    color: rgb(236, 236, 236);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rounded{
+    border-radius: .5rem;
+}
