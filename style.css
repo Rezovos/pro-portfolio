@@ -1,8 +1,8 @@
 * {
     box-sizing: border-box;
   }
-  
-  /* brand color palette */
+
+  /* central color palette */
   :root {
     --primary: rgba(45, 190, 209, 0.822);
     --secondary: rgb(111, 34, 235);
@@ -98,7 +98,8 @@
     padding: 2% 6%;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
+    align-items: left
+;
     text-align: right;
   }
   
@@ -159,13 +160,13 @@
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 200px;
+    max-height: 200px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
-    margin: 0.5em;
+    margin: 0.2em;
     text-decoration: none;
     background-blend-mode: soft-light;
     background-size: 150%;
@@ -195,7 +196,7 @@
   .contact address {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: 100%;
   }
@@ -221,27 +222,8 @@
   }
   
   /* portfolio project images */
-  .run-buddy {
-    background-image: url("../images/02-run-buddy.jpg");
-  }
+
   
-  .led-wall {
-    background-image: url("../images/02-portfolio-1.jpg");
-  }
-  
-  .react-calc {
-    background-image: url("../images/02-portfolio-2.jpg");
-  }
-  
-  .pastel-puzzles {
-    background-image: url("../images/02-portfolio-3.jpg");
-  }
-  
-  .surf-report {
-    background-image: url("../images/02-portfolio-4.jpg");
-  }
-  
-  /* end portfolio project images */
   
   @media screen and (max-width: 980px) {
     header {
@@ -269,7 +251,7 @@
     .page-section > h2 {
       border-right: none;
       border-bottom: 4px solid var(--primary);
-      margin-bottom: 20px;
+      margin-bottom: 15px;
       padding-bottom: 10px;
       text-align: left;
       font-size: 7vw;
