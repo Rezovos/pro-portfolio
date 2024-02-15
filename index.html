@@ -1,62 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pro-Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
+
 <body>
-    <header>
-        <header>
-            <h1>Lernantino</h1>
-            <nav>
-              <a href="#about">About Me</a>
-              <a href="#work">Work</a>
-              <a href="#contact">Contact Me</a>
-            </nav>
-          </header>
-    <section class="row">
-        <div class="card">
-            <p class="title rounded" id="about"> "About"</p>
-            <p> description text </p>
-            <p class="codeSnip">
-                blah blashblah blash
-                blah blash
-            </p>
-        </div>
-        <div class="card">
-            <p class="title rounded"> "Placeholder"</p>
-            <p> description text </p>
-            <p class="codeSnip">
-                blah blash
-                blah blash
-                blah blashvblah blash
-            </p>
-        </div>
-        <div class="card">
-            <p class="title rounded"> "Placeholder"</p>
-            <p> description text </p>
-            <p class="codeSnip">
-                blah blashblah blash
-                blah blash
-                blah blashblah blashblah blash
-            </p>
-        </div>
-        <div class="card">
-            <p class="title rounded">"Placeholder"</p>
-            <p> description text  </p>
-            <p class="codeSnip">
-               laksdjflasdofih
-               lalsdfawefoa
-               asfaswef
-            </p>
-        </div>
-    </section>
-    <footer>
-        <p> 
-            Made with <span id="footerEm"></span> and CSS
+  <!-- main logo / nav -->
+  <header>
+    <h1>Bryce</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#work">Work</a>
+      <a href="#contact">Contact Me</a>
+      <!-- Link this to your resume! -->
+    </nav>
+  </header>
+
+  <!-- hero banner -->
+  <section class="hero-banner">
+    <div>
+      <h2>Cool subtitle here!</h2>
+    </div>
+  </section>
+
+  <main class="page-wrapper">
+    <!-- about me -->
+    <section class="page-section" id="about">
+      <h2>About Me</h2>
+      <div>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est provident, suscipit facere corrupti voluptatum 
+          voluptatem dolores accusamus obcaecati veniam dicta id amet inventore. 
+          Sed eos maxime itaque corporis quisquam error?
         </p>
-    </footer>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est provident, suscipit facere corrupti voluptatum 
+            voluptatem dolores accusamus obcaecati veniam dicta id amet inventore. 
+            Sed eos maxime itaque corporis quisquam error? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est provident, suscipit facere corrupti voluptatum 
+            voluptatem dolores accusamus obcaecati veniam dicta id amet inventore. 
+            Sed eos maxime itaque corporis quisquam error?
+        </p>
+      </div>
+    </section>
+
+    <!-- portfolio container -->
+    <section class="page-section" id="work">
+      <h2>Work</h2>
+      <div class="flex-container">
+
+        <a href="#" class="flex-item surf-report">
+          <div>
+            <h3>Horiseon</h3>
+            <span>Refactoring-store</span>
+          </div>
+        </a>
+        
+        <a href="#" class="flex-item led-wall">
+          <div>
+            <h3>LED Wall</h3>
+            <span>Node/IoT</span>
+          </div>
+        </a>
+        <a href="#" class="flex-item react-calc">
+          <div>
+            <h3>Calculator</h3>
+            <span>React/JavaScript/CSS</span>
+          </div>
+        </a>
+
+        <a href="#" class="flex-item pastel-puzzles">
+          <div>
+            <h3>Pastel Puzzels</h3>
+            <span>MERN Stack</span>
+          </div>
+        </a>
+
+    
+        <a href="#" class="flex-item run-buddy">
+          <div>
+            <h3>Run Buddy</h3>
+            <span>HTML/CSS</span>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <!-- contact -->
+    <section class="page-section contact" id="contact">
+      <h2>Contact Me</h2>
+      <div>
+        <address>
+          <a href="tel:+11111111115">111.111.1115</a>
+          <a href="mailto:Bryce@website.com">Bryce@website.com</a>
+        </address>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
